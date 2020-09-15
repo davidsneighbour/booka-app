@@ -48,7 +48,7 @@
     "stylelint": "13.7.0",
     "stylelint-config-prettier": "8.0.2",
     "stylelint-config-standard": "20.0.0",
-    "vue-jest": "3.0.6"
+    "vue-jest": "3.0.7"
   },
   "babel": {
     "env": {
