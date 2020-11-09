@@ -5,7 +5,10 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "release": "standard-version --release-as patch -a -t \"\"",
+    "release-next": "standard-version --release-as minor -a -t \"\"",
+    "release-major": "standard-version --release-as major -a -t \"\""
   },
   "devDependencies": {
     "@vue/cli": "4.5.8",
@@ -24,6 +27,7 @@
     "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-standard": "4.0.0",
     "eslint-plugin-vue": "7.1.0",
+    "standard-version": "9.0.0",
     "vue": "3.0.2",
     "vue-loader": "16.0.0-beta.7",
     "vue-router": "4.0.0-beta.10"
@@ -47,6 +51,16 @@
     "last 2 versions",
     "not dead"
   ],
-  "_id": "booka-app@1.0.0",
-  "readme": "ERROR: No README data found!"
+  "standard-version": {
+    "scripts": {},
+    "skip": {
+      "changelog": true
+    },
+    "bumpFiles": [
+      {
+        "filename": "package.json",
+        "type": "json"
+      }
+    ]
+  }
 }
