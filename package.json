@@ -6,9 +6,9 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "release": "standard-version --release-as patch -a -t \"\"",
-    "release-next": "standard-version --release-as minor -a -t \"\"",
-    "release-major": "standard-version --release-as major -a -t \"\""
+    "release": "standard-version --release-as patch -a -t \"\" && git push --follow-tags origin main",
+    "release-next": "standard-version --release-as minor -a -t \"\" && git push --follow-tags origin main",
+    "release-major": "standard-version --release-as major -a -t \"\" && git push --follow-tags origin main"
   },
   "devDependencies": {
     "@vue/cli": "4.5.8",
