@@ -29,7 +29,7 @@
     "standard-version": "9.1.0",
     "vue": "3.0.2",
     "vue-loader": "16.1.2",
-    "vue-router": "4.0.2"
+    "vue-router": "4.0.3"
   },
   "eslintConfig": {
     "root": true,
