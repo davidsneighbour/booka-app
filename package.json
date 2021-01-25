@@ -11,7 +11,7 @@
     "release-major": "standard-version --release-as major -a -t \"\" && git push --follow-tags origin main"
   },
   "devDependencies": {
-    "@vue/cli": "4.5.10",
+    "@vue/cli": "4.5.11",
     "@vue/cli-service": "4.5.10",
     "@vue/cli-plugin-eslint": "4.5.10",
     "@vue/cli-plugin-babel": "4.5.10",
